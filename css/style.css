@@ -39,15 +39,9 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
 header
 {
 	display: block;
-	background-color: #2C3A4C;
+	/*background-color: #2C3A4C;*/
 	height: 70px;
 	width:100%;
-}
-
-html
-{
-	
-	padding: 0;
 }
 
 .tab
