@@ -50,16 +50,17 @@ header
 	margin-right: 15px;
 }
 
-.bgcolor
-{
-		background:rgb(20,30,50);
-}
+.bgcolor{background:rgb(20,30,50);}
+
+.h1_color{color: #fff;}
+
 
 .text
 {
 		color: #fff;
 		font-size: 20px;
 }
+
 
 .fix_table
 {
@@ -92,11 +93,5 @@ header
 		line-height:20px;
 		vertical-align: middle;
 		border: 2px solid rgb(10,50,10);
-}
-
-.fix_table td:hover
-{
-		background-color: #5d5d5d;
-		cursor:pointer;
 }
 
