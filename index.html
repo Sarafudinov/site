@@ -29,7 +29,7 @@
 				<div class="text" id="current_date_time_block"></div>
 				<div class="text" id="current_week"></div>
 
-					<p class="button">Расписание:</p>
+					<p class="text">Расписание:</p>
 
 					<table class="fix_table">
 						<tr >
@@ -108,7 +108,7 @@
 			}
 			return value;
 			}
-			
+
 			/* функция получения текущей даты и времени */
 			function date_time()
 			{
@@ -124,8 +124,10 @@
 			}
 			
 			/* выводим текущую дату и время на сайт в блок с id "current_date_time_block" */
-			document.getElementById('current_date_time_block').innerHTML = date_time();
 			
+			
+			setTimeout(document.getElementById('current_date_time_block').innerHTML = date_time(), 1000);
+
 			var d0 = new Date ().getTime ();
 			var d = new Date (new Date ().getFullYear (), 0, 1);
 			var d1 = d.getTime ();
@@ -134,6 +136,8 @@
 			var str = ('Неделя ' + ((Math.floor (re / 7) % 2) ? '' : 'не') + 'четная');
 			document.getElementById('current_week').innerHTML = str;
 
+
+			
 
 			</script>
 		</div>
