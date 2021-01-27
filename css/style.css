@@ -62,7 +62,7 @@ header
 }
 
 
-.fix_table
+.table
 {
 		text-decoration: none;
 		border-collapse:collapse;
@@ -71,7 +71,7 @@ header
 		background: #2E8B57;
 }
 
-.fix_table th
+.table th
 {
 		font-weight:500;
 		font-size:21px;
@@ -79,14 +79,14 @@ header
 		background-color:rgb(50,100,50);
 }
 
-.fix_table td
+.table td
 {
 		font-size:20px;
 		color:#fff;
 		transition: all 0.1s;
 }
 
-.fix_table td,.fix_table th
+.table td,.table th
 {
 		white-space:pre-wrap;
 		padding:16px 12px;
@@ -95,3 +95,7 @@ header
 		border: 2px solid rgb(10,50,10);
 }
 
+#current_week
+{
+	font-size: 40px;
+}

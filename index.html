@@ -24,74 +24,73 @@
 			</nav>
 		</header>
 
-		<main >
-			<div class="tab">
-				<h1 class="h1_color">Расписани (TI-197):</h1>
+		<div class="tab">
+			<h1 class="h1_color">Расписани (TI-197):</h1>
 
-				<h2>
-					<div class="badge bg-#0d6efd">
-						<u>
-							<span id="current_week">
-							</span>
-						</u>
-						<span id="current_date_time_block"></span>
-					</div>
-				</h2>
+			<h3>
+				<div class="badge bg-#0d6efd">
+					<u>
+						<span id="current_week">
+						</span>
+					</u>
+					<span id="current_date_time_block"></span>
+				</div>
+			</h3>
 
-					<p></p>
-					<table class="fix_table">
-						<tr >
-							<th> Время </th>
-							<th> Понидельник </th>
-							<th> Вторник </th>
-							<th> Среда </th>
-							<th> Четверг </th>
-							<th> Пятница </th>
-						</tr>
-						<tr >
-							<td> 8:00 - 9:30 </td>
-							<td> </td>
-							<td> c. Gr. Calc. </td>
-							<td> lab. RC </td>
-							<td> </td>
-							<td> </td>
-						</tr>
-						<tr >
-							<td> 9:45 - 11:15 </td>
-							<td class="myBackground"> lab. Gr. Calc. ч/н</td>
-							<td> c. RC </td>
-							<td> lab. AC </td>
-							<td> c. AMOO </td>
-							<td> c. AC </td>
-						</tr>
-						<tr >
-							<td> 11:30 - 13:00 </td>
-							<td> lab. T.Web </td>
-							<td> </td>
-							<td> sem. AMOO ч/н</td>
-							<td> c. AMOO ч/н</td>
-							<td> c. T.Web </td>
-						</tr>
-						<tr >
-							<td> 13:30 - 15:00 </td>
-							<td> lab. AMOO </td>
-							<td> </td>
-							<td> </td>
-							<td> c. PPE </td>
-							<td> c. T.Web ч/н </td>
-						</tr>
-						<tr >
-							<td> 15:15 - 16:45 </td>
-							<td> lab. PPE </td>
-							<td> </td>
-							<td> </td>
-							<td> </td>
-							<td> </td>
-						</tr>
-					</table>
+				<p></p>
+				<table class="table">
+					<tr>
+						<th> Время </th>
+						<th> Понидельник </th>
+						<th> Вторник </th>
+						<th> Среда </th>
+						<th> Четверг </th>
+						<th> Пятница </th>
+					</tr>
+					<tr >
+						<td> 8:00 - 9:30 </td>
+						<td> </td>
+						<td> c. Gr. Calc. </td>
+						<td> lab. RC </td>
+						<td> </td>
+						<td> </td>
+					</tr>
+					<tr >
+						<td> 9:45 - 11:15 </td>
+						<td> lab. Gr. Calc. ч/н</td>
+						<td> c. RC </td>
+						<td> lab. AC </td>
+						<td> c. AMOO </td>
+						<td> c. AC </td>
+					</tr>
+					<tr >
+						<td> 11:30 - 13:00 </td>
+						<td> lab. T.Web </td>
+						<td> </td>
+						<td> sem. AMOO ч/н</td>
+						<td> c. AMOO ч/н</td>
+						<td> c. T.Web </td>
+					</tr>
+					<tr >
+						<td> 13:30 - 15:00 </td>
+						<td> lab. AMOO </td>
+						<td> </td>
+						<td> </td>
+						<td> c. PPE </td>
+						<td> c. T.Web ч/н </td>
+					</tr>
+					<tr >
+						<td> 15:15 - 16:45 </td>
+						<td> lab. PPE </td>
+						<td> </td>
+						<td> </td>
+						<td> </td>
+						<td> </td>
+					</tr>
+				</table>
 
-					<p></p>
-					<div class="text">
+				<p></p>
+				<div class="text">
 					<p>Предметы: </p>
 					<p>AC - Arhitectura Calculatoarelor</p>
 					<p>AMOO - Analiza şi Modelarea orientată pe obiecte</p>
@@ -99,10 +98,10 @@
 					<p>PPE - Programarea pilotată de evenimente</p>
 					<p>RC - Rețele de calculatoare </p>
 					<p>T.Web - Tehnologii Web</p>
-					</div>
+				</div>
 
 			<script type="text/javascript">
-			
+
 			/* функция добавления ведущих нулей */
 			/* (если число меньше десяти, перед числом добавляем ноль) */
 			function zero_first_format(value)
@@ -124,10 +123,9 @@
 			var hours = zero_first_format(current_datetime.getHours());
 			var minutes = zero_first_format(current_datetime.getMinutes());
 			var seconds = zero_first_format(current_datetime.getSeconds());
-			
 			return day+"."+month+"."+year+" "+hours+":"+minutes+":"+seconds;
 			}
-			
+
 			/* выводим текущую дату и время на сайт в блок с id "current_date_time_block" */
 			document.getElementById('current_date_time_block').innerHTML = date_time()
 			setInterval(() =>(document.getElementById('current_date_time_block').innerHTML = date_time()), 1000)
@@ -142,31 +140,6 @@
 
 			</script>
 		</div>
-	</main>
-
-
-
-<div class="row">
-	<div class="col-sm bg-info m-2">
-		Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, provident at earum, sint hic voluptas dignissimos, tempora ratione voluptates nemo fugit distinctio, soluta? Nulla voluptate ullam quidem mollitia, sed perspiciatis.
-	</div>
-	<div class="col-sm bg-info m-2">
-		Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, provident at earum, sint hic voluptas dignissimos, tempora ratione voluptates nemo fugit distinctio, soluta? Nulla voluptate ullam quidem mollitia, sed perspiciatis.
-	</div>
-	<div class="col-sm bg-info m-2">
-		Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, provident at earum, sint hic voluptas dignissimos, tempora ratione voluptates nemo fugit distinctio, soluta? Nulla voluptate ullam quidem mollitia, sed perspiciatis.
-	</div>
-	<div class="col-sm bg-info m-2">
-		Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, provident at earum, sint hic voluptas dignissimos, tempora ratione voluptates nemo fugit distinctio, soluta? Nulla voluptate ullam quidem mollitia, sed perspiciatis.
-	</div>
-	<div class="col-sm bg-info m-2">
-		Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, provident at earum, sint hic voluptas dignissimos, tempora ratione voluptates nemo fugit distinctio, soluta? Nulla voluptate ullam quidem mollitia, sed perspiciatis.
-	</div>
-	
-</div>
-
-
-
 
 
 
