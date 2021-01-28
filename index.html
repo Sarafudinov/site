@@ -29,7 +29,7 @@
 	</head>
 	<body id="body">
 
-		<header class="site-header sticky-top py-1">
+		<header class="site-header py-1">
 			<nav class="container d-flex flex-column flex-md-row justify-content-between">
 				<a class="py-2" href="#" aria-label="Product">
 					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mx-auto" role="img" viewBox="0 0 24 24"><title>Product</title><circle cx="12" cy="12" r="10"/><path d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94"/></svg>
@@ -44,76 +44,78 @@
 			</nav>
 		</header>
 
-		<div class="tab">
-			<h1 class="h1_color">Расписани (TI-197):</h1>
-
-			<h3 class="text">
-				<div id="current_week" class="btn btn-warning" style="font-size: large;"></div>
-				<span id="current_date_time_block"></span>
-			</h3>
-
-			<table class="table_fix">
-				<tr>
-					<th> Время </th>
-					<th> Понидельник </th>
-					<th> Вторник </th>
-					<th> Среда </th>
-					<th> Четверг </th>
-					<th> Пятница </th>
-				</tr>
-				<tr >
-					<td> 8:00 - 9:30 </td>
-					<td> </td>
-					<td> c. Gr. Calc. </td>
-					<td> lab. RC </td>
-					<td> </td>
-					<td> </td>
-				</tr>
-				<tr >
-					<td> 9:45 - 11:15 </td>
-					<td class="uneven"> lab. Gr. Calc. н/ч</td>
-					<td> c. RC </td>
-					<td> lab. AC </td>
-					<td> c. AMOO </td>
-					<td> c. AC </td>
-				</tr>
-				<tr >
-					<td> 11:30 - 13:00 </td>
-					<td> lab. T.Web </td>
-					<td> </td>
-					<td class="uneven"> sem. AMOO н/ч</td>
-					<td> c. AMOO</td>
-					<td> c. T.Web </td>
-				</tr>
-				<tr >
-					<td> 13:30 - 15:00 </td>
-					<td> lab. AMOO </td>
-					<td> </td>
-					<td> </td>
-					<td> c. PPE </td>
-					<td class="uneven"> c. T.Web н/ч </td>
-				</tr>
-				<tr >
-					<td> 15:15 - 16:45 </td>
-					<td> lab. PPE </td>
-					<td> </td>
-					<td> </td>
-					<td> </td>
-					<td> </td>
-				</tr>
-			</table>
-
-			<p></p>
-			<div class="text">
-				<p>Предметы: </p>
-				<p>AC - Arhitectura Calculatoarelor</p>
-				<p>AMOO - Analiza şi Modelarea orientată pe obiecte</p>
-				<p>Gr. Calc. - Grafica pe calculator</p>
-				<p>PPE - Programarea pilotată de evenimente</p>
-				<p>RC - Rețele de calculatoare </p>
-				<p>T.Web - Tehnologii Web</p>
+		<main>
+			<div class="tab">
+				<h1 class="h1_color">Расписани (TI-197):</h1>
+	
+				<h3 class="text">
+					<div id="current_week" class="btn btn-warning" style="font-size: large;"></div>
+					<span id="current_date_time_block"></span>
+				</h3>
+	
+				<table class="table_fix">
+					<tr>
+						<th> Время </th>
+						<th> Понидельник </th>
+						<th> Вторник </th>
+						<th> Среда </th>
+						<th> Четверг </th>
+						<th> Пятница </th>
+					</tr>
+					<tr >
+						<td> 8:00 - 9:30 </td>
+						<td> </td>
+						<td> c. Gr. Calc. </td>
+						<td> lab. RC </td>
+						<td> </td>
+						<td> </td>
+					</tr>
+					<tr >
+						<td> 9:45 - 11:15 </td>
+						<td class="uneven"> lab. Gr. Calc.</td>
+						<td> c. RC </td>
+						<td> lab. AC </td>
+						<td> c. AMOO </td>
+						<td> c. AC </td>
+					</tr>
+					<tr >
+						<td> 11:30 - 13:00 </td>
+						<td> lab. T.Web </td>
+						<td> </td>
+						<td class="uneven"> sem. AMOO </td>
+						<td> c. AMOO</td>
+						<td> c. T.Web </td>
+					</tr>
+					<tr >
+						<td> 13:30 - 15:00 </td>
+						<td> lab. AMOO </td>
+						<td> </td>
+						<td> </td>
+						<td> c. PPE </td>
+						<td class="uneven"> c. T.Web </td>
+					</tr>
+					<tr >
+						<td> 15:15 - 16:45 </td>
+						<td> lab. PPE </td>
+						<td> </td>
+						<td> </td>
+						<td> </td>
+						<td> </td>
+					</tr>
+				</table>
+	
+				<p></p>
+				<div class="text">
+					<p>Предметы: </p>
+					<p>AC - Arhitectura Calculatoarelor</p>
+					<p>AMOO - Analiza şi Modelarea orientată pe obiecte</p>
+					<p>Gr. Calc. - Grafica pe calculator</p>
+					<p>PPE - Programarea pilotată de evenimente</p>
+					<p>RC - Rețele de calculatoare </p>
+					<p>T.Web - Tehnologii Web</p>
+				</div>
 			</div>
-		</div>
+		</main>
 	</body>
 
 
@@ -158,18 +160,15 @@
 			var str = (is_even ? 'Неделя не четная' : 'Неделя четная');
 			document.getElementById('current_week').innerHTML = str;
 
-			setTimeout(CheckAndHide() , 100000);
-
-         function CheckAndHide(){
-             var td = document.getElementsByClassName('uneven');
-             if(!is_even){
-                 for(i = 0 ; i < td.length ; i++)
-                     td[i].style.backgroundColor = '#00796B';
-             }else{
-                 for(i = 0 ; i < td.length ; i++)
-                     td[i].style.backgroundColor = "gray";
-             }
+         var td = document.getElementsByClassName('uneven');
+         if(!is_even){
+             for(i = 0 ; i < td.length ; i++)
+                 td[i].style.backgroundColor = '#00796B';
+         }else{
+             for(i = 0 ; i < td.length ; i++)
+                 td[i].style.backgroundColor = "gray";
          }
+
 
 		</script>
 
