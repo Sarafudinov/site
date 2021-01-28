@@ -50,7 +50,7 @@ header
 	margin-right: 15px;
 }
 
-.bgcolor{background:rgb(20,30,50);}
+#body{background:rgb(20,30,50);}
 
 .h1_color{color: #fff;}
 
@@ -62,16 +62,17 @@ header
 }
 
 
-.table
+.table_fix
 {
 		text-decoration: none;
 		border-collapse:collapse;
 		width:100%;
 		text-align:center;
 		background: #2E8B57;
+		margin-top: 1rem;
 }
 
-.table th
+.table_fix th
 {
 		font-weight:500;
 		font-size:21px;
@@ -79,14 +80,14 @@ header
 		background-color:rgb(50,100,50);
 }
 
-.table td
+.table_fix td
 {
 		font-size:20px;
 		color:#fff;
 		transition: all 0.1s;
 }
 
-.table td,.table th
+.table_fix td,.table_fix th
 {
 		white-space:pre-wrap;
 		padding:16px 12px;
@@ -95,7 +96,7 @@ header
 		border: 2px solid rgb(10,50,10);
 }
 
-#current_week
+#current_week hover:
 {
-	font-size: 40px;
+
 }
