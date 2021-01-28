@@ -62,7 +62,7 @@
 						<th> Четверг </th>
 						<th> Пятница </th>
 					</tr>
-					<tr >
+					<tr>
 						<td> 8:00 - 9:30 </td>
 						<td> </td>
 						<td> c. Gr. Calc. </td>
@@ -70,7 +70,7 @@
 						<td> </td>
 						<td> </td>
 					</tr>
-					<tr >
+					<tr>
 						<td> 9:45 - 11:15 </td>
 						<td class="uneven"> lab. Gr. Calc.</td>
 						<td> c. RC </td>
@@ -78,7 +78,7 @@
 						<td> c. AMOO </td>
 						<td> c. AC </td>
 					</tr>
-					<tr >
+					<tr>
 						<td> 11:30 - 13:00 </td>
 						<td> lab. T.Web </td>
 						<td> </td>
@@ -86,7 +86,7 @@
 						<td> c. AMOO</td>
 						<td> c. T.Web </td>
 					</tr>
-					<tr >
+					<tr>
 						<td> 13:30 - 15:00 </td>
 						<td> lab. AMOO </td>
 						<td> </td>
@@ -94,7 +94,7 @@
 						<td> c. PPE </td>
 						<td class="uneven"> c. T.Web </td>
 					</tr>
-					<tr >
+					<tr>
 						<td> 15:15 - 16:45 </td>
 						<td> lab. PPE </td>
 						<td> </td>
@@ -103,8 +103,8 @@
 						<td> </td>
 					</tr>
 				</table>
-	
-				<p></p>
+
+				<br/>
 				<div class="text">
 					<p>Предметы: </p>
 					<p>AC - Arhitectura Calculatoarelor</p>
@@ -160,15 +160,14 @@
 			var str = (is_even ? 'Неделя не четная' : 'Неделя четная');
 			document.getElementById('current_week').innerHTML = str;
 
-         var td = document.getElementsByClassName('uneven');
-         if(!is_even){
-             for(i = 0 ; i < td.length ; i++)
-                 td[i].style.backgroundColor = '#00796B';
-         }else{
-             for(i = 0 ; i < td.length ; i++)
-                 td[i].style.backgroundColor = "gray";
-         }
-
+			var td = document.getElementsByClassName('uneven');
+			if(!is_even){
+				for(i = 0 ; i < td.length ; i++)
+					td[i].style.backgroundColor = '#00796B';
+			}else{
+				for(i = 0 ; i < td.length ; i++)
+					td[i].style.backgroundColor = "gray";
+			}
 
 		</script>
 
