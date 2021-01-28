@@ -47,11 +47,9 @@
 		<div class="tab">
 			<h1 class="h1_color">Расписани (TI-197):</h1>
 
-			<h3>
-				<div class="badge rounded-pill" style="background-color: #00796B">
-					<u><span id="current_week"></span></u>
-					<span id="current_date_time_block"></span>
-				</div>
+			<h3 class="text">
+				<div id="current_week" class="btn btn-warning" style="font-size: large;"></div>
+				<span id="current_date_time_block"></span>
 			</h3>
 
 			<table class="table_fix">
@@ -73,7 +71,7 @@
 				</tr>
 				<tr >
 					<td> 9:45 - 11:15 </td>
-					<td id="uneven"> lab. Gr. Calc. н/ч</td>
+					<td class="uneven"> lab. Gr. Calc. н/ч</td>
 					<td> c. RC </td>
 					<td> lab. AC </td>
 					<td> c. AMOO </td>
@@ -83,7 +81,7 @@
 					<td> 11:30 - 13:00 </td>
 					<td> lab. T.Web </td>
 					<td> </td>
-					<td id="uneven"> sem. AMOO н/ч</td>
+					<td class="uneven"> sem. AMOO н/ч</td>
 					<td> c. AMOO</td>
 					<td> c. T.Web </td>
 				</tr>
@@ -93,7 +91,7 @@
 					<td> </td>
 					<td> </td>
 					<td> c. PPE </td>
-					<td id="uneven"> c. T.Web н/ч </td>
+					<td class="uneven"> c. T.Web н/ч </td>
 				</tr>
 				<tr >
 					<td> 15:15 - 16:45 </td>
@@ -157,11 +155,21 @@
 			if((Math.floor (re / 7) % 2))
 				 { is_even = true; }
 			else{ is_even = false; }
-			var str_ne = (is_even ? 'не' : '');
-			var str = ('Неделя ' + str_ne + 'четная');
+			var str = (is_even ? 'Неделя не четная' : 'Неделя четная');
 			document.getElementById('current_week').innerHTML = str;
 
-			setTimeout(document.getElementById('uneven').innerHTML = date_time(), 1000);
+			setTimeout(CheckAndHide() , 100000);
+
+         function CheckAndHide(){
+             var td = document.getElementsByClassName('uneven');
+             if(!is_even){
+                 for(i = 0 ; i < td.length ; i++)
+                     td[i].style.backgroundColor = '#00796B';
+             }else{
+                 for(i = 0 ; i < td.length ; i++)
+                     td[i].style.backgroundColor = "gray";
+             }
+         }
 
 		</script>
 
