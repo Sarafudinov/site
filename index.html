@@ -161,7 +161,7 @@
 			document.getElementById('current_week').innerHTML = str;
 
 			var td = document.getElementsByClassName('uneven');
-			if(!is_even){
+			if(is_even){
 				for(i = 0 ; i < td.length ; i++)
 					td[i].style.backgroundColor = '#00796B';
 			}else{
