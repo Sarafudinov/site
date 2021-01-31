@@ -39,9 +39,9 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
 header
 {
 	display: block;
-	/*background-color: #2C3A4C;*/
 	height: 70px;
 	width:100%;
+	font-family: "comic sans ms";
 }
 
 .tab
@@ -50,16 +50,12 @@ header
 	margin-right: 15px;
 }
 
-#body{background:rgb(20,30,50);}
+#body{background:rgb(20,30,50);
+		font-family: "comic sans ms";
+		color: #fff;
+		font-size: 20px;}
 
 .h1_color{color: #fff;}
-
-
-.text
-{
-		color: #fff;
-		font-size: 20px;
-}
 
 
 .table_fix
@@ -70,6 +66,7 @@ header
 		text-align:center;
 		background: #00796B;
 		margin-top: 1rem;
+
 }
 
 .table_fix th
@@ -93,7 +90,8 @@ header
 		padding:16px 12px;
 		line-height:20px;
 		vertical-align: middle;
-		border: 2px solid rgb(10,50,10);
+		border: 2px solid rgb(20,30,50);
+		
 }
 
 #bg-header{
@@ -147,7 +145,7 @@ header
 	padding: 12px; /* Поля вокруг текста */
 	background: #F59A51; /* Цвет фона */
 	border-radius: 15px 15px 15px 15px;
-	opacity: 1;
+
 	color: #000;
 	font-size: 16px;
 	text-align: center;
@@ -158,7 +156,8 @@ header
 	-webkit-transform: scale(1.2);
 	-ms-transform: scale(1.2);
 	transform: scale(1.2);
-	background-color: #FB8C00
+	background-color: #FB8C00;
+	font-weight: bold;
 }
 
 .timetable:hover
@@ -172,7 +171,6 @@ header
 {
 	color: #fff;
 	text-align: center;
-	font-family: "Designed by CodeMan38";
 }
 
 .footer {
