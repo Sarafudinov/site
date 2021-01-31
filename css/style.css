@@ -145,7 +145,6 @@ header
 	width: 300px; /* Ширина слоя */
 	margin: 7px; /* Значение отступов */
 	padding: 12px; /* Поля вокруг текста */
-	 /* Параметры границы */
 	background: #F59A51; /* Цвет фона */
 	border-radius: 15px 15px 15px 15px;
 	opacity: 1;
@@ -160,4 +159,17 @@ header
 	-ms-transform: scale(1.2);
 	transform: scale(1.2);
 	background-color: #FB8C00
+}
+
+.timetable:hover
+{
+	-webkit-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	transform: scale(1.2);
+}
+
+.start
+{
+	color: #fff;
+	text-align: center;
 }
