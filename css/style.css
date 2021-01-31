@@ -172,4 +172,10 @@ header
 {
 	color: #fff;
 	text-align: center;
+	font-family: "Designed by CodeMan38";
+}
+
+.footer {
+		background: #263238;
+		color:#fff;
 }
