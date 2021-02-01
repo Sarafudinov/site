@@ -57,6 +57,11 @@ header
 
 .h1_color{color: #fff;}
 
+#current_week{
+	font-size: large; 
+	color: black; 
+	font-weight: bold;
+}
 
 .table_fix
 {
@@ -166,7 +171,6 @@ header
 	-ms-transform: scale(1.2);
 	transform: scale(1.2);
 }
-
 .start
 {
 	color: #fff;
@@ -286,5 +290,21 @@ textarea {
     padding: 15px 25px;
   }
 }
-
-
+@media screen and (max-width: 420px) {
+  h1 {
+    font-size: 18px;
+  }
+  
+  .icon {
+    height: 35px;
+    width: 35px;
+  }
+  
+  .underline {
+    width: 53px;
+  }
+  
+  input[type='text'], [type='email'], select, textarea {
+    font-size: 0.875em;
+  }
+}
