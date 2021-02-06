@@ -42,7 +42,6 @@ header
   height: 65px;
   width:100%;
   font-family: "comic sans ms";
-
 }
 
 .tab
@@ -147,11 +146,6 @@ header
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {background-color: #00796B;}
 
-.news
-{
-  
-}
-
 .block
 {
   width: 300px; /* Ширина слоя */
@@ -180,6 +174,7 @@ header
   -ms-transform: scale(1.2);
   transform: scale(1.2);
 }
+
 .start
 {
   color: #fff;
@@ -430,6 +425,6 @@ textarea {
   margin: 10px;
   border: 2px solid #000;
   border-radius: 20px;
-  background: linear-gradient(to top,#283593 0%, rgb(20,30,50) 50%,#283593 100%);
+  background: linear-gradient(to top,#37474F 0%, #004D40 50%,#37474F 100%);
   box-shadow: rgba(0, 0, 0, 0.55);
 }
