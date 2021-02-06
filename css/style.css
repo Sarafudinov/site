@@ -51,7 +51,9 @@ header
   margin-right: 15px;
 }
 
-#body{background:rgb(20,30,50);
+#body{
+
+    background: linear-gradient(to top,#283593 0%, rgb(20,30,50) 50%,#283593 100%);
     font-family: "comic sans ms";
     color: #fff;
     font-size: 20px;}
@@ -144,6 +146,11 @@ header
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {background-color: #00796B;}
+
+.news
+{
+  
+}
 
 .block
 {
