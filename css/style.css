@@ -53,7 +53,7 @@ header
 
 #body{
 
-    background: linear-gradient(to top,#283593 0%, rgb(20,30,50) 50%,#283593 100%);
+    background: rgb(20,30,50);
     font-family: "comic sans ms";
     color: #fff;
     font-size: 20px;}
@@ -423,4 +423,13 @@ textarea {
 [tooltip][flow^="down"]:hover::before,
 [tooltip][flow^="down"]:hover::after {
   animation: tooltips-vert 300ms ease-out forwards;
+}
+
+.table-block,.news-block,.contact-block
+{
+  margin: 10px;
+  border: 2px solid #000;
+  border-radius: 20px;
+  background: linear-gradient(to top,#283593 0%, rgb(20,30,50) 50%,#283593 100%);
+  box-shadow: rgba(0, 0, 0, 0.55);
 }
