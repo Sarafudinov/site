@@ -35,7 +35,7 @@
 			if((Math.floor (re / 7) % 2))
 				 { is_even = true; }
 			else{ is_even = false; }
-			var str = (is_even ? 'Неделя не четная' : 'Неделя четная');
+			var str = (is_even ? 'Week is NOT even' : 'Week is even');
 			document.getElementById('current_week').innerHTML = str;
 
 			var td = document.getElementsByClassName('uneven');
