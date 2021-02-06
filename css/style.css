@@ -52,7 +52,8 @@ header
 
 #body{
 
-    background: rgb(20,30,50);
+/*    background: rgb(20,30,50);*/
+    background: linear-gradient(to top, #5db4ff,#4646ff,#5db4ff);
     font-family: "comic sans ms";
     color: #fff;
     font-size: 20px;}
@@ -425,6 +426,6 @@ textarea {
   margin: 10px;
   border: 2px solid #000;
   border-radius: 20px;
-  background: linear-gradient(to top,#37474F 0%, #004D40 50%,#37474F 100%);
+  background: linear-gradient(to top, #263238 0%, #004D40 50%, #263238 100%);
   box-shadow: rgba(0, 0, 0, 0.55);
 }
