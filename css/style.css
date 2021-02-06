@@ -1,12 +1,12 @@
 *{
-	padding: 0;
-	margin: 0;
-	border: 0;
+  padding: 0;
+  margin: 0;
+  border: 0;
 }
 *,*:before,*:after{
-	-moz-box-sizing: border-box;
-	-webkit-box-sizing: border-box;
-	box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
 }
 :focus,:active{outline: none;}
 a:focus,a:active{outline: none;}
@@ -14,14 +14,14 @@ a:focus,a:active{outline: none;}
 nav,footer,header,aside{display: block;}
 
 html,body{
-	height: 100%;
-	width: 100%;ы
-	font-size: 100%;
-	line-height: 1;
-	font-size: 14px;
-	-ms-text-size-adjust: 100%;
-	-moz-text-size-adjust: 100%;
-	-wedkit-text-size-adjust: 100%;
+  height: 100%;
+  width: 100%;ы
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -wedkit-text-size-adjust: 100%;
 }
 
 input,button,textarea{font-family: inherit;}
@@ -38,70 +38,70 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
 
 header
 {
-	display: block;
-	height: 65px;
-	width:100%;
-	font-family: "comic sans ms";
+  display: block;
+  height: 65px;
+  width:100%;
+  font-family: "comic sans ms";
 
 }
 
 .tab
 {
-	margin-left: 15px;
-	margin-right: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
 #body{background:rgb(20,30,50);
-		font-family: "comic sans ms";
-		color: #fff;
-		font-size: 20px;}
+    font-family: "comic sans ms";
+    color: #fff;
+    font-size: 20px;}
 
 .h1_color{color: #fff;}
 
 #current_week{
-	font-size: large; 
-	color: black; 
-	font-weight: bold;
+  font-size: large; 
+  color: black; 
+  font-weight: bold;
 }
 
 .table_fix
 {
-		text-decoration: none;
-		border-collapse:collapse;
-		width:100%;
-		text-align:center;
-		background: #00796B;
-		margin-top: 1rem;
+    text-decoration: none;
+    border-collapse:collapse;
+    width:100%;
+    text-align:center;
+    background: #00796B;
+    margin-top: 1rem;
 
 }
 
 .table_fix th
 {
-		font-weight:500;
-		font-size:21px;
-		color:#fff;
-		background-color:#004D40;
+    font-weight:500;
+    font-size:21px;
+    color:#fff;
+    background-color:#004D40;
 }
 
 .table_fix td
 {
-		font-size:20px;
-		color:#fff;
-		transition: all 0.1s;
+    font-size:20px;
+    color:#fff;
+    transition: all 0.1s;
 }
 
 .table_fix td,.table_fix th
 {
-		white-space:pre-wrap;
-		padding:16px 12px;
-		line-height:20px;
-		vertical-align: middle;
-		border: 2px solid rgb(20,30,50);
-		
+    white-space:pre-wrap;
+    padding:16px 12px;
+    line-height:20px;
+    vertical-align: middle;
+    border: 2px solid rgb(20,30,50);
+    
 }
 
 #bg-header{
-	background: #263238;
+  background: #263238;
 
 }
 
@@ -147,41 +147,41 @@ header
 
 .block
 {
-	width: 300px; /* Ширина слоя */
-	margin: 7px; /* Значение отступов */
-	padding: 12px; /* Поля вокруг текста */
-	background: #F59A51; /* Цвет фона */
-	border-radius: 15px 15px 15px 15px;
+  width: 300px; /* Ширина слоя */
+  margin: 7px; /* Значение отступов */
+  padding: 12px; /* Поля вокруг текста */
+  background: #F59A51; /* Цвет фона */
+  border-radius: 15px 15px 15px 15px;
 
-	color: #000;
-	font-size: 16px;
-	text-align: center;
-	box-shadow: 5px 5px #004D40;
+  color: #000;
+  font-size: 16px;
+  text-align: center;
+  box-shadow: 5px 5px #004D40;
 }
 
 .block:hover {
-	-webkit-transform: scale(1.2);
-	-ms-transform: scale(1.2);
-	transform: scale(1.2);
-	background-color: #FB8C00;
-	font-weight: bold;
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  background-color: #FB8C00;
+  font-weight: bold;
 }
 
 .timetable:hover
 {
-	-webkit-transform: scale(1.2);
-	-ms-transform: scale(1.2);
-	transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
 }
 .start
 {
-	color: #fff;
-	text-align: center;
+  color: #fff;
+  text-align: center;
 }
 
 .footer {
-		background: #263238;
-		color:#fff;
+    background: #263238;
+    color:#fff;
 }
 
 #container {
@@ -216,37 +216,37 @@ header
 }
 
 .email {
-	float: right;
-	width: 45%;
+  float: right;
+  width: 45%;
 }
 
 input[type='text'], [type='email'], select, textarea {
-	background: none;
+  background: none;
   border: none;
-	border-bottom: solid 2px #474544;
-	color: #474544;
-	font-size: 1.000em;
+  border-bottom: solid 2px #474544;
+  color: #474544;
+  font-size: 1.000em;
   font-weight: 400;
   letter-spacing: 1px;
-	margin: 0em 0 1.875em 0;
-	padding: 0 0 0.875em 0;
+  margin: 0em 0 1.875em 0;
+  padding: 0 0 0.875em 0;
   text-transform: uppercase;
-	width: 100%;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	-ms-box-sizing: border-box;
-	-o-box-sizing: border-box;
-	box-sizing: border-box;
-	-webkit-transition: all 0.3s;
-	-moz-transition: all 0.3s;
-	-ms-transition: all 0.3s;
-	-o-transition: all 0.3s;
-	transition: all 0.3s;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 .name {
-	float: left;
-	width: 45%;
+  float: left;
+  width: 45%;
 }
 
 .subject {
@@ -258,9 +258,9 @@ input[type='text'], [type='email'], select, textarea {
 }
 
 textarea {
-	line-height: 150%;
-	height: 150px;
-	resize: none;
+  line-height: 150%;
+  height: 150px;
+  resize: none;
   width: 100%;
 }
 
@@ -277,10 +277,10 @@ textarea {
   padding: 20px 35px;
   text-transform: uppercase;
   -webkit-transition: all 0.3s;
-	-moz-transition: all 0.3s;
-	-ms-transition: all 0.3s;
-	-o-transition: all 0.3s;
-	transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 #form_button:hover {
@@ -313,13 +313,13 @@ textarea {
 
 #carouselExampleControls
 {
-	width: 100%;
+  width: 100%;
 }
 
 .lecture_hall
 {
-	padding: 5px;
-	color:#B2DFDB;
+  padding: 5px;
+  color:#B2DFDB;
 }
 
 /* START TOOLTIP STYLES */
