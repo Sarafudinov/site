@@ -319,7 +319,7 @@ textarea {
   width: 100%;
 }
 
-.lecture_hall
+.lecture_hall,.uneven
 {
   padding: 5px;
   color:#B2DFDB;
