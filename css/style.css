@@ -421,7 +421,7 @@ textarea {
   animation: tooltips-vert 300ms ease-out forwards;
 }
 
-.table-block,.news-block,.contact-block
+.table-block,.news-block,.contact-block, .attest
 {
   margin: 10px;
   border: 2px solid #000;
